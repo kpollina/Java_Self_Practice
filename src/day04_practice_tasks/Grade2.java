@@ -23,3 +23,22 @@ public class Grade2 {
 
     }
 }
+/*
+Create a class called Grade2. A char variable named grade is given.
+   Write a program to print the following messages:
+
+		'A': Excellent
+		'B': Great job
+		'C': Good
+		'D': Passed
+		'F': Failed
+		Otherwise: Invalid Grade
+
+			Example:
+				   grade = 'B'
+
+			Output:
+				   Great job
+
+
+ */

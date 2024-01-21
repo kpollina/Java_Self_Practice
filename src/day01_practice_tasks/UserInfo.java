@@ -1,4 +1,4 @@
-package m09_my_first_program;
+package day01_practice_tasks;
 
 public class UserInfo {
     public static void main(String[] args) {

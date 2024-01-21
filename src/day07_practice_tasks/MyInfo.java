@@ -70,3 +70,27 @@ public class MyInfo {
 
     }
 }
+/*
+Create a class called MyInfo and ask the user to:
+
+      Enter your age (int)
+      Enter your gender (String - One word ONLY)
+      Enter your full name (String - Multiple words)
+      Enter your phone number (long)
+      Enter your zip code (int)
+      Enter your School name (String - Can be Multiple words)
+      Enter your city name (String - Can be Multiple words)
+      Enter your state name (String - One word ONLY)
+      Enter your building number (int)
+      Enter your Street name
+
+    Display all the inputs that the user entered in the following order in separate lines:
+
+        Full name
+        Age
+        Gender
+        Phone number
+        Address:
+             buildingNumber Street
+             City, state zipCode
+ */

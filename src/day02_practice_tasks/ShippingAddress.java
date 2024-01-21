@@ -1,4 +1,4 @@
-package m10_variables_data_types;
+package day02_practice_tasks;
 
 public class ShippingAddress {
 
@@ -23,3 +23,32 @@ public class ShippingAddress {
                " " + state + " " + zipCode);
     }
 }
+
+/*
+Create a class named ShippingAddress and write a program with the following requirements:
+
+	Declare the following variables with appropriate data types:
+ 			fullName
+			buildingNumber
+			streetName
+			city
+			state
+			zipCode
+
+	Use concatenation to print the full shipping address
+
+			Example:
+				fullName = "Aaron Kissinger";
+				buildingNumber = 13621;
+				streetName = "Legacy Circle"
+				city = "Fairfax;
+				state = "VA";
+				zipCode = 22030;
+
+			Output:
+	      		Your Shipping address is:
+                			Aaron Kissinger
+                			13621 Legacy Circle
+                			Fairfax, VA 22030
+
+ */

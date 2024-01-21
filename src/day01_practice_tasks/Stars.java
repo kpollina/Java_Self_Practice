@@ -1,4 +1,4 @@
-package m09_my_first_program;
+package day01_practice_tasks;
 
 public class Stars {
     public static void main(String[] args) {

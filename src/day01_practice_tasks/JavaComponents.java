@@ -1,7 +1,14 @@
-package m09_my_first_program;
+package day01_practice_tasks;
 
 public class JavaComponents {
     public static void main(String[] args) {
         System.out.println("\t\tJDK\n\t\tJRE\n\t\tJVM");
     }
 }
+
+/*
+Create a Java class named JavaComponents that prints the full form of each of the following:
+		JDK
+		JRE
+		JVM
+ */

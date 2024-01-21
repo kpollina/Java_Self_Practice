@@ -1,4 +1,4 @@
-package m09_my_first_program;
+package day01_practice_tasks;
 
 public class GasReceipt1 {
     public static void main(String[] args) {
@@ -14,3 +14,20 @@ public class GasReceipt1 {
         System.out.println("******************************");
     }
 }
+
+/*
+Create a Java class named GasReceipt that prints the following outputs in the console:
+
+	******************************
+	|                            |
+	|         MCLEAN STORE       |
+	|                            |
+	| 12/15/2023         2:45 PM |
+	|                            |
+	| Gallons:           10.5    |
+	| Price/gallon:      $4.5    |
+	| ========================== |
+	| Fuel total:        $47.25  |
+	|                            |
+	******************************
+ */

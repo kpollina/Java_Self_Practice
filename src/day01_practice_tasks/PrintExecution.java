@@ -1,4 +1,4 @@
-package m09_my_first_program;
+package day01_practice_tasks;
 
 public class PrintExecution {
     public static void main(String[] args) {
@@ -11,3 +11,20 @@ public class PrintExecution {
         System.out.println("\t\tMadina");
     }
 }
+
+/*
+Create a Java class named PrintExecution that prints the following outputs in the console:
+
+	Cydeo
+
+	Yuliia
+	Alena
+	Lucy
+	Alexander
+
+	Igor
+	Sumeye
+	Madina
+
+
+ */

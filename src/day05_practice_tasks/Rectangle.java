@@ -10,3 +10,16 @@ public class Rectangle {
         }
     }
 }
+/*
+Create a class named Rectangle. Use a loop to print the following shape on the console:
+
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+			* * * * * * * *
+ */

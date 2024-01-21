@@ -1,4 +1,4 @@
-package m09_my_first_program;
+package day01_practice_tasks;
 
 public class Diamond1 {
     public static void main(String[] args) {
@@ -17,3 +17,18 @@ public class Diamond1 {
 
     }
 }
+/*
+Create a Java class named Diamond1 that prints the following outputs in the console:
+
+	                    ^
+	                   / \
+	                  /   \
+	                 /     \
+	                /       \
+	                ---------
+	                \       /
+	                 \     /
+	                  \   /
+	                   \ /
+	                    V
+ */

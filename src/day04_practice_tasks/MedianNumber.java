@@ -13,3 +13,15 @@ public class MedianNumber {
 
     }
 }
+/*
+Create a class named MedianNumber. Write a program that finds the median number between
+three DIFFERENT given integers (Assume that the given three integers are distinct numbers).
+
+			Example:
+				   a = 10;
+				   b = 15;
+				   c = 20;
+
+			Output:
+				  15 is the median number
+ */

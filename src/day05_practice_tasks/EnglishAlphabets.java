@@ -13,3 +13,7 @@ public class EnglishAlphabets {
 
     }
 }
+/*
+Create a class named EnglishAlphabets, and write a program that displays alphabet letters from A to Z in the
+same line separated by a space.
+ */

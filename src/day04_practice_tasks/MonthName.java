@@ -54,3 +54,20 @@ public class MonthName {
 
     }
 }
+/*
+Create a class named MonthName. Given an integer variable named number representing the number
+of the month, write a program that displays the month's name based on the given number.
+
+			Example 1:
+				     number = 10
+
+			Output:
+				  October
+
+			Example 2:
+				     number = -20
+
+			Output:
+				  No such month
+
+ */
