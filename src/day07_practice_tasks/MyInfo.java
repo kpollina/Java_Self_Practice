@@ -7,54 +7,42 @@ public class MyInfo {
 
         Scanner scanner = new Scanner(System.in);
 
-        int age;
-        String gender;
-        String fullName;
-        long phoneNumber;
-        int zipCode;
-        String schoolName;
-        String city;
-        String state;
-        int buildingNumber;
-        String street;
-
         System.out.println("Enter your age");
-        age = scanner.nextInt();
-
+        int age = scanner.nextInt();
 
         System.out.println("Enter your gender");
-        gender = scanner.next();
+        String gender = scanner.next();
 
         scanner.nextLine();
 
         System.out.println("Enter your full name");
-        fullName = scanner.nextLine();
+        String fullName = scanner.nextLine();
 
         System.out.println("Enter your phone number");
-        phoneNumber = scanner.nextLong();
+        long phoneNumber = scanner.nextLong();
 
 
         System.out.println("Enter your zip code");
-        zipCode = scanner.nextInt();
+       int zipCode = scanner.nextInt();
 
 
         scanner.nextLine();
 
         System.out.println("Enter your School name");
-        schoolName = scanner.nextLine();
+        String schoolName = scanner.nextLine();
 
         System.out.println("Enter your city name ");
-        city = scanner.nextLine();
+        String city = scanner.nextLine();
 
         System.out.println("Enter your state name ");
-        state = scanner.next();
+        String state = scanner.next();
 
         System.out.println("Enter your building number");
-        buildingNumber = scanner.nextInt();
+        int buildingNumber = scanner.nextInt();
 
         scanner.nextLine();
         System.out.println("Enter your Street name");
-        street = scanner.nextLine();
+        String street = scanner.nextLine();
 
 
 
@@ -64,6 +52,7 @@ public class MyInfo {
         System.out.println("Gender " + gender);
         System.out.println("Phone number " + phoneNumber);
         System.out.println("Address: " + "\n\t\t" + buildingNumber + " " + street + "\n\t\t" + city + ", " + state + " " + zipCode );
+        System.out.println("School name: "+schoolName);
 
 
         scanner.close();

@@ -12,13 +12,21 @@ public class RectangleClients {
         rectangle.calculateArea();
         System.out.println(rectangle);
 
-
         rectangle.calculatePerimeter();
         System.out.println(rectangle);
 
 
 
+        Rectangle rectangle2 = new Rectangle();
 
+        rectangle2.width = 15.5;
+        rectangle2.length = 7.5;
+
+        rectangle2.calculateArea();
+        System.out.println(rectangle2);
+
+        rectangle2.calculatePerimeter();
+        System.out.println(rectangle2);
 
     }
 }

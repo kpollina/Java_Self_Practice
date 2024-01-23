@@ -17,6 +17,29 @@ public class EmployeeClients {
         employee.work();
         System.out.println(employee);
 
+
+
+
+        Employee employee2 = new Employee();
+
+        employee2.name = "Marina";
+        employee2.age =44;
+        employee2.gender = 'f';
+        employee2.jobTitle = "Groomer";
+        employee2.salary = 50_000;
+
+
+        employee2.work();
+        System.out.println(employee2);
+
+
+
+
+
+
+
+
+
     }
 }
 /*

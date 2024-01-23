@@ -12,6 +12,12 @@ public class FamilyMembers {
         System.out.println("How many people do you live with?");
         people = familyMembers.nextInt();
 
+        while(people <= 0 ){
+            System.out.println("Invalid entry, Please re-enter:");
+            people =  familyMembers.nextInt();
+        }
+
+
       if (people < 3){
           System.out.println("Live with less than three people.");
       } else if (people > 3 && people < 6) {

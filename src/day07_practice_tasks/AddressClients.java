@@ -9,7 +9,7 @@ public class AddressClients {
         address.street = "Jones Branch Dr";
         address.city = "McLean";
         address.state = "VA";
-        address.zipcode = "22012";
+        address.zipcode = 22012;
 
 
        String result =  address.getAddress();

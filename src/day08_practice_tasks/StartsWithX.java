@@ -10,7 +10,9 @@ public class StartsWithX {
 
         String str = input.next();
 
-        str = str.replaceFirst("x", "a");
+        if(str.charAt(0)=='x') {
+            str = str.replaceFirst("x", "a");
+        }
         System.out.println(str);
 
         input.close();

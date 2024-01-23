@@ -2,7 +2,6 @@ package day07_practice_tasks;
 
 public class ItemClients {
 
-
     public static void main(String[] args) {
 
         Item item = new Item();
@@ -11,9 +10,20 @@ public class ItemClients {
         item.unitPrice = 2;
         item.quantity = 10;
 
-
         item.calCost();
         System.out.println(item);
+
+
+
+        Item item2 = new Item();
+
+        item2.itemName = "Pen";
+        item2.unitPrice = 12;
+        item2.quantity = 10;
+
+        item2.calCost();
+        System.out.println(item2);
+
 
 
     }

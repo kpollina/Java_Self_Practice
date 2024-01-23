@@ -6,23 +6,18 @@ public class PlaceAnOrder {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String product;
-        double price;
-        int quantity;
-        String firstName;
-
 
         System.out.println("enter the product name: ");
-        product = scanner.nextLine();
+        String product = scanner.nextLine();
 
         System.out.println("enter the price: ");
-        price = scanner.nextDouble();
+        double price = scanner.nextDouble();
 
         System.out.println("enter quantity: ");
-        quantity = scanner.nextInt();
+        int quantity = scanner.nextInt();
 
         System.out.println("enter your first name: ");
-        firstName = scanner.next();
+        String firstName = scanner.next();
 
         double total = price * quantity;
 

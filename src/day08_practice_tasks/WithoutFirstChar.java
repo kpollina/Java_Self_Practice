@@ -6,28 +6,21 @@ public class WithoutFirstChar {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("enter two word");
 
+        System.out.println("enter first word:");
+        String word1 = input.next();
+
+        System.out.println("enter second word:");
+        String word2 = input.next();
 
        // String word1 = "apple";
        // String word2 = "banana";
-
-        String word1 = input.next();
-        String word2 = input.next();
-
 
         word1 = word1.substring(1);
         word2 = word2.substring(1);
         System.out.println(word1+word2);
 
         input.close();
-
-    //Done
-
-
-
-
-
 
     }
 }

@@ -1,14 +1,21 @@
 package day08_practice_tasks;
-
+import java.util.Scanner;
 public class EmailTask2 {
 
     public static void main(String[] args) {
 
-        String email = "craig_federighi@apple.com";
+        Scanner input = new Scanner(System.in);
+        String email = input.next();
 
-        String firstName = email.substring(0,5).replaceFirst("c", "C");
-        String lastName = email.substring(6,15).replaceFirst("f", "F");
-        String domain = email.substring(16,21);
+        //String email = "craig_federighi@apple.com";
+
+        int underscore = email.indexOf("_");
+        int at = email.indexOf("@");
+        int dot = email.indexOf(".");
+
+        String firstName = email.substring(0,underscore);
+        String lastName = email.substring(underscore +1,at);
+        String domain = email.substring(at + 1,dot);
 
         System.out.println("First name: " + firstName);
         System.out.println("Last name: " + lastName);

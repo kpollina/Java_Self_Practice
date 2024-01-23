@@ -7,28 +7,27 @@ public class TipCalculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Split or No split (Yes or No) ?");
-        String splitOrNot = scanner.next();
+        String splitOrNot = scanner.next().toLowerCase();
 
         System.out.println("Enter the number of people:");
         int numberOfPeople = scanner.nextInt();
-
-
+        
         System.out.println("Enter the check amount:");
         double checkAmount = scanner.nextDouble();
 
         System.out.println("How was the service quality? (Excellent/Great/Good/Fair/Poor) ");
-        String serviceQuality = scanner.next();
+        String serviceQuality = scanner.next().toLowerCase();
 
         scanner.close();
 
 
         double totalTip = 0;
         switch (serviceQuality) {
-            case "Excellent" -> totalTip = 0.25 * checkAmount;
-            case "Great" -> totalTip = 0.2 * checkAmount;
-            case "Good" -> totalTip = 0.15 * checkAmount;
-            case "Fair" -> totalTip = 0.1 * checkAmount;
-            case "Poor" -> totalTip = 0.05 * checkAmount;
+            case "excellent" -> totalTip = 0.25 * checkAmount;
+            case "great" -> totalTip = 0.2 * checkAmount;
+            case "good" -> totalTip = 0.15 * checkAmount;
+            case "fair" -> totalTip = 0.1 * checkAmount;
+            case "poor" -> totalTip = 0.05 * checkAmount;
             default -> totalTip = 0;
         }
 
@@ -37,12 +36,12 @@ public class TipCalculator {
         double tipPerPerson = totalTip / numberOfPeople;
 
 
-        if (splitOrNot.equals("Yes") || splitOrNot.equals("No")) {
+        if (splitOrNot.equals("yes") || splitOrNot.equals("no")) {
             System.out.println("Number of people entered: " + numberOfPeople);
             System.out.println("Total to pay: " + totalToPay);
             System.out.println("Total tip: " + totalTip);
 
-            if (splitOrNot.equals("Yes")) {
+            if (splitOrNot.equals("yes")) {
                 System.out.println("Total per person: " + totalPerPerson);
                 System.out.println("Tip per person: " + tipPerPerson);
             }
