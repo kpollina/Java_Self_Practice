@@ -35,6 +35,17 @@ public class CombineTwoArrays {
 
      */
 
+    //the other way:
+    //for (String each : arr1) {
+    //            list.add(each);
+    //        }
+    //
+    //        for (String each : arr2) {
+    //            list.add(each);
+    //        }
+    //
+    //        System.out.println(list);
+
 
 
 }

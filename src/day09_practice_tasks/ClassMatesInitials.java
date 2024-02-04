@@ -21,7 +21,13 @@ public class ClassMatesInitials {
             System.out.println((fullName.substring(0, 1) + "."
                     + fullName.substring(fullName.indexOf(" ") + 1, fullName.indexOf(" ") + 2) + "."));
         }
-    }
+
+        //the other way:
+        //for (int i = 0; i < classMates.length; i++) {
+        //  String initial = classMates[i].charAt(0) +"."+ classMates[i].charAt(  classMates[i].indexOf(" ") + 1);
+        //  System.out.println(initial);
+
+        }
 }
 /*
 Create a class named ClassMatesInitials and write a program with the following specifications:

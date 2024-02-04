@@ -31,7 +31,36 @@ public class Items {
         for (int i = 0; i < items.length; i++) {
             System.out.println("name " + items[i] + " - price " + prices[i] + " - #ID " + itemIDs[i]);
         }
+
+
+
+        //the other way:
+        //        int indexNumOfGloves = -1;
+        //        boolean hasIPad = false;
+        //        String report = "";
+        //
+        //        for (int i = 0; i < items.length; i++) {
+        //            String itemName = items[i];
+        //            double itemPrice = prices[i];
+        //            int itemID = itemIDs[i];
+        //
+        //            if (itemName.equals("Gloves")) {
+        //                indexNumOfGloves = i;
+        //            }
+        //
+        //            if (itemName.equals("iPad")) {
+        //                hasIPad = true;
+        //            }
+        //
+        //            report += itemName + " - " + itemPrice + " - #" + itemID + "\n";
+        //        }
+        //
+        //        System.out.println("indexNumOfGloves = " + indexNumOfGloves);
+        //        System.out.println("hasIPad = " + hasIPad);
+        //        System.out.println(report);
+
     }
+
 }
 /*
 Create a class named Items and write a program with the following specifications:

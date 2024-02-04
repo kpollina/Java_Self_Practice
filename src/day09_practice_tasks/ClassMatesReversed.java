@@ -29,6 +29,16 @@ public class ClassMatesReversed {
             }
             System.out.println(res);
         }
+
+
+        //the other way:
+        //for (int i = 0; i < classMates.length; i++) {
+        //    String name = classMates[i];
+        //    String res = "";
+        //    for (int j = name.length() - 1; j >= 0; j--) {
+        //       res += name.charAt(j);
+        //   }
+        //   System.out.println(res);
     }
 }
 /*
