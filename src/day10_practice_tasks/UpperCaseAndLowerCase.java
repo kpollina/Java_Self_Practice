@@ -5,7 +5,7 @@ public class UpperCaseAndLowerCase {
 
         String str = "JAVA java";
 
-        int upperCase = 0;
+        int upperCase = 0; // getting number of character
         int lowerCase = 0;
 
         for (int i = 0; i < str.length(); i++) {

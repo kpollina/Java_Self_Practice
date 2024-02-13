@@ -15,6 +15,7 @@ public class RemoveDuplicates {
                 list2.add(element);      // If the element is not already in list2, it is added to list2.
         }
         System.out.println(list2);
+
     }
 }
 /*
