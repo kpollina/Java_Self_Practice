@@ -7,12 +7,12 @@ public class Toyota extends Car{
 
     @Override
     public void start() {
-        System.out.println("Toyota is started");
+        System.out.println(getMake() + " " + getModel() +" is started");
     }
 
     @Override
     public void drive() {
-        System.out.println("Toyota is being driven");
+        System.out.println(getMake() + " " + getModel() +" is being driven");
     }
 }
 /*

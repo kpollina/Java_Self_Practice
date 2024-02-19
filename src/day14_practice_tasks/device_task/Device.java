@@ -6,8 +6,8 @@ public abstract class Device {
     private double price;
     private String color;
     private final String size;
-    private final boolean hasBattery;
-    private final boolean hasPowerButton;
+    private boolean hasBattery = true;
+    private boolean hasPowerButton = true;
 
     //Constructor: Initializes all fields.
     protected Device(String brand, String model, double price, String color, String size, boolean hasBattery, boolean hasPowerButton) {

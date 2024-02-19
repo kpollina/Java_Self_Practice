@@ -7,17 +7,17 @@ public class Audi extends Car implements AutoPark{
 
     @Override
     public void autoPark() {
-        System.out.println("Audi is parking automatically");
+        System.out.println(getMake() +" " + getModel() + " is parking automatically");
     }
 
     @Override
     public void start() {
-        System.out.println("Audi is started");
+        System.out.println(getMake() + " " + getModel()+ " is started");
     }
 
     @Override
     public void drive() {
-        System.out.println("Audi is being driven");
+        System.out.println(getMake() + " " + getModel() + " is being driven");
     }
 }
 /*

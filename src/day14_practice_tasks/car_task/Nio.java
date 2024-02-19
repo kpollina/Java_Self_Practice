@@ -7,23 +7,23 @@ public class Nio extends Car implements AutoPark, AutoPilot{
 
     @Override
     public void autoPark() {
-        System.out.println("Nio is parking automatically");
+        System.out.println(getMake() + " " + getModel() +" is parking automatically");
     }
 
     @Override
     public void selfDrive() {
-        System.out.println("Nio is self-driving");
+        System.out.println(getMake() + " " + getModel() +" is self-driving");
 
     }
 
     @Override
     public void start() {
-        System.out.println("Nio is started");
+        System.out.println(getMake() + " " + getModel() +" is started");
     }
 
     @Override
     public void drive() {
-        System.out.println("Nio is being driven");
+        System.out.println(getMake() + " " + getModel() +" is being driven");
     }
 }
 /*

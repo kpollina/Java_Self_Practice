@@ -63,7 +63,7 @@ throw new RuntimeException("make, model, color must not be null or empty and yea
 
     // Non-abstract methods
     public void stop(){
-        System.out.println("Car is stopped");
+        System.out.println(make + " " + model +" car is stopped");
     }
 
     @Override

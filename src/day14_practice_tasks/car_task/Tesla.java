@@ -7,22 +7,22 @@ public class Tesla extends Car implements AutoPark, AutoPilot {
 
     @Override
     public void autoPark() {
-        System.out.println("Tesla is parking automatically");
+        System.out.println(getMake() + " " + getModel() +" is parking automatically");
     }
 
     @Override
     public void selfDrive() {
-        System.out.println("Tesla is self-driving");
+        System.out.println(getMake() + " " + getModel() +" is self-driving");
     }
 
     @Override
     public void start() {
-        System.out.println("Tesla is started");
+        System.out.println(getMake() + " " + getModel() +" is started");
     }
 
     @Override
     public void drive() {
-        System.out.println("Tesla is being driven");
+        System.out.println(getMake() + " " + getModel() +" is being driven");
     }
 }
 /*
