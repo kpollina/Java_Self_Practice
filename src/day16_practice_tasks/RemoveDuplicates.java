@@ -46,4 +46,12 @@ public class RemoveDuplicates {
          Output:
             {0, 10, 15, 20, 30}
 
+
+ List<Integer> list = new ArrayList<>();
+        list.addAll(Arrays.asList(20, 15, 10, 20, 30, 10, 20, 15, 0));
+
+        Set<Integer> set = new TreeSet<>(list);
+
+        System.out.println(set);
+
  */

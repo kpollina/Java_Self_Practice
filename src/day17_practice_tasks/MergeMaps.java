@@ -42,4 +42,21 @@ If a key is present in both maps, add their corresponding values together.
          Output:
                {'A'=10, 'B'=50, 'C'=40}
 
+
+ public static void main(String[] args) {
+        Map<Character, Integer> map1 = new HashMap<>();
+        map1.put('A', 10);
+        map1.put('B', 20);
+
+        Map<Character, Integer> map2 = new HashMap<>();
+        map2.put('B', 30);
+        map2.put('C', 40);
+
+        Map<Character, Integer> mergedMap = new HashMap<>();
+        mergedMap.putAll(map1);
+        mergedMap.putAll(map2);
+
+        System.out.println(mergedMap);
+    }
+
  */

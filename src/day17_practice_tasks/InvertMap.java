@@ -33,4 +33,18 @@ It is assumed that there are no duplicate values in the original map.
          Output:
                {"a"=1, "b"=2, "c"=3}
 
+ public static void main(String[] args) {
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "a");
+        map.put(2, "b");
+        map.put(3, "c");
+
+        Map<String, Integer> invertedMap = new HashMap<>();
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            invertedMap.put(entry.getValue(), entry.getKey());
+        }
+
+        System.out.println(invertedMap);
+
+    }
  */

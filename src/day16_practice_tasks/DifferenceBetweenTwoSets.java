@@ -34,4 +34,17 @@ and displays the result.
          Output:
             {1, 5}
 
+public static void main(String[] args) {
+
+        Set<Integer> set1 = new LinkedHashSet<>();
+        set1.addAll(Arrays.asList(1, 2, 3, 5));
+
+        Set<Integer> set2 = new LinkedHashSet<>();
+        set2.addAll(Arrays.asList(2, 3, 4));
+
+        Set<Integer> difference = new LinkedHashSet<>(set1);
+        difference.removeAll(set2);
+
+        System.out.println(difference);
+
  */

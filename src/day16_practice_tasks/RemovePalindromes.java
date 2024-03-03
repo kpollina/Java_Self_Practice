@@ -43,4 +43,25 @@ public class RemovePalindromes {
          Output:
             {"Java", "Python", "Cydeo", "Car"}
 
+
+List<String> list = new ArrayList<>();
+        list.addAll(Arrays.asList(
+                "Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak",
+                "reviver", "racecar", "madam"
+        ));
+
+        List<String> result = new ArrayList<>();
+
+        for (String each : list) {
+            String reversedStr = "";
+            for (int i = each.length() - 1; i >= 0; i--) {
+                reversedStr += each.charAt(i);
+            }
+
+            if (!each.equalsIgnoreCase(reversedStr)) {
+                result.add(each);
+            }
+        }
+
+        System.out.println(result);
  */
